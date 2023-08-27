@@ -1,4 +1,4 @@
-## Density
+# Density
 
 A software company that researches new ways to listen to music by combining blockchain technology with a modern minimal interface
 
