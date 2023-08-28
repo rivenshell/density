@@ -5,9 +5,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 
 const navigation = [
   { name: "Product", href: "/product" },
-  { name: "Features", href: "#" },
-  { name: "Privacy", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Information", href: "/information" },
+  { name: "Privacy", href: "/privacy" },
 ]
 
 export default function Example() {
@@ -51,14 +50,7 @@ export default function Example() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
         </nav>
         <Dialog
           as="div"
